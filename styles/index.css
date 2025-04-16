@@ -29,3 +29,141 @@
 html {
     font-size: 62.5%;
 }
+
+
+/* text */
+
+.text--primary-bold {
+    font-weight: var(--weight-bold);
+    font-size: var(--text-lg);
+}
+
+.text--primary-light {
+    font-weight: var(--weight-light);
+    font-size: var(--text-lg);
+}
+
+
+
+.text--secondary-bold {
+    font-weight: var(--weight-bold);
+    font-size: var(--text-md);
+}
+
+.text--secondary-light {
+    font-weight: var(--weight-light);
+    font-size: var(--text-md);
+}
+
+
+.text--tertiary-bold {
+    font-weight: var(--weight-bold);
+    font-size: var(--text-sm);
+}
+
+.text--tertiary-light {
+    font-weight: var(--weight-light);
+    font-size: var(--text-sm);
+}
+
+
+
+.text--capitalize {
+    text-transform: capitalize;
+}
+
+
+.text--link {
+    text-decoration: none;
+    color: var(--hospital-green);
+    font-weight: var(--weight-light);
+    font-size: var(--text-sm);
+}
+
+/* button */
+
+
+.button--primary {
+    width: 40rem;
+    height: 8rem;
+    border-radius: var(--radius-all);
+    color: var(--white);
+    background-color: var(--hospital-green);
+    font-weight: var(--weight-bold);
+    font-size: var(--text-lg);
+    border: transparent;
+    cursor: pointer;
+}
+
+.button--secondary {
+    width: 40rem;
+    height: 8rem;
+    border-radius: var(--radius-all);
+    color: var(--hospital-green);
+    background-color: var(--white);
+    font-weight: var(--weight-bold);
+    font-size: var(--text-lg);
+    border: 0.4rem solid var(--hospital-green);
+    cursor: pointer;
+}
+
+.button--bottom {
+    margin-top: auto;
+}
+
+
+.button--margin-top {
+    margin-top: 2rem;
+}
+/* form elements */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 40rem;
+    height: 100%;
+}
+
+.label--text {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: fit-content;
+    gap: 0.8rem;
+}
+
+.input--text {
+    background-color: var(--text-input-field);
+    width: 40rem;
+    height: 4rem;
+    padding: 0 0.8rem;
+    font-size: var(--text-md);
+    font-weight: var(--weight-light);
+    border: transparent;
+    border-radius: var(--radius-all);
+}
+
+.input--text:focus {
+    outline: 0.4rem solid var(--hospital-green);
+    border-radius: var(--radius-all);
+}
+
+
+/* image */
+
+.image--cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.image--contain {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}

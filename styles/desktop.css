@@ -1,2 +1,14 @@
 @import url("index.css");
 
+/* login */
+.login-page {
+    grid-template-rows: 60%;
+    place-items: center;
+    place-content: center;
+}
+
+
+.login-page__figure {
+    display: none;
+}
+

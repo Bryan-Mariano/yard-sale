@@ -1,2 +1,18 @@
 @import url("index.css");
 
+/* login */
+
+.login-page {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-rows: 30% 68%;
+    place-items: center;
+    place-content: center;
+}
+
+
+.login-page__figure {
+    width: 28rem;
+    height: 28rem;
+}

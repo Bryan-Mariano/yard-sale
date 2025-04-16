@@ -12,11 +12,42 @@
 
     <link rel="shortcut icon" href="../assets/images/favicon_yard_sale.svg" type="image/x-icon">
     <link rel="stylesheet" href="../styles/mobile.css">
-    <link rel="stylesheet" href="../styles/desktop.css" media="(min-width: 12366px)">
+    <link rel="stylesheet" href="../styles/desktop.css" media="(min-width: 1024px)">
+
+    <link rel="stylesheet" href="../fonts/index.css">
 
 </head>
 <body>
-    
+
+    <main>
+        <section class="login-page">
+
+            <figure class="login-page__figure">
+                <img class="image--contain" src="../assets/images/logo_yard_sale.svg" alt="">
+            </figure>
+
+            <form class="form">
+                <label class="label--text">
+                    <span class="text--capitalize text--secondary-bold">email address</span>
+                    <input class="input--text" type="text">
+                </label>
+                <label class="label--text">
+                    <span class="text--capitalize text--secondary-bold">password</span>
+                    <input class="input--text" type="password">
+                </label>
+
+                <input class="button--margin-top button--primary" type="submit" value="Log in">
+
+                <a href="#" class="text--link">
+                    <span class="text--capitalize">forgot</span> my password
+                </a>
+
+
+                <input class="button--bottom button--secondary" type="button" value="Sign up">
+            </form>
+
+        </section>
+    </main>
     
 </body>
 </html>
