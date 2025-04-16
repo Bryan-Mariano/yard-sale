@@ -1,0 +1,31 @@
+:root {
+    --text-sm: 1.8rem;
+    --text-md: 2.1rem;
+    --text-lg: 2.4rem;
+
+    --very-light-pink: rgb(199, 199, 199);
+    --white: rgb(255, 255, 255);
+    --text-input-field: rgb(247, 247, 247);
+    --black: rgb(0, 0, 0);
+    --hospital-green: rgb(172, 217, 178);
+    --dark: rgb(35, 40, 48);
+    --error-red: rgb(220, 53, 69);
+
+    --radius-all: 0.8rem;
+
+    --weight-light: 300;
+    --weight-medium: 500;
+    --weight-bold: 700;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: quicksand;
+}
+
+html {
+    font-size: 62.5%;
+}
