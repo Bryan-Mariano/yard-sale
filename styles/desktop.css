@@ -51,3 +51,12 @@
 .new-password-page__figure {
     display: none;
 }
+
+
+/* create account */
+
+.create-password-page {
+    place-content: center;
+    grid-template-rows: repeat(2, min-content);
+    gap: 4rem;
+}

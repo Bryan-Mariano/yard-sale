@@ -95,3 +95,18 @@
     margin-top: 4rem;
 }
 
+/* create account */
+
+.create-password-page {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 16% 80%;
+    place-content: center;
+}
+
+.create-account-page__text--title {
+    align-self: center;
+    width: 40rem;
+}
+
+

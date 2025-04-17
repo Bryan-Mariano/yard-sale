@@ -20,17 +20,27 @@
 <body>
 
     <main>
-        <section class="login-page">
+        <section class="create-password-page">
 
-            <figure class="login-page__figure">
-                <img class="image--contain" src="../assets/images/logo_yard_sale.svg" alt="">
-            </figure>
 
-            <form class="form">
+
+            <h1 class="create-account-page__text--title text--primary-bold"><span class="text--capitalize">my</span> account</h1>
+               
+
+
+            <form class="create-account-page__form form" action="index.html">
+
+
+                <label class="label--text">
+                    <span class="text--capitalize text--secondary-bold">name</span>
+                    <input placeholder="username" class="input--text" type="text">
+                </label>
+
                 <label class="label--text">
                     <span class="text--capitalize text--secondary-bold">email address</span>
-                    <input placeholder="user@yardsale.com" class="input--text" type="text">
+                    <input placeholder="user@yardsale.com" class="input--text" type="email">
                 </label>
+
                 <label class="label--text">
                     <span class="text--capitalize text--secondary-bold">password</span>
                     <input placeholder="*******" class="input--text" type="password">
@@ -38,19 +48,8 @@
 
 
 
-                <a class="button--margin-top button--primary" href="#">
-                    <span class="text--capitalize">log</span> in
-                </a>
+                <input class="button--bottom button--primary" type="submit" value="Create account" >
 
-
-                <a href="password-recovery.html" class="text--link">
-                    <span class="text--capitalize">forgot</span> my password
-                </a>
-
-
-                <a class="button--bottom button--secondary" href="create-account.html">
-                    <span class="text--capitalize">sign up</span>
-                </a>
             </form>
 
         </section>
