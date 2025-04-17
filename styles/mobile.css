@@ -16,3 +16,34 @@
     width: 28rem;
     height: 28rem;
 }
+
+/* password-recovery */
+
+.password-recovery-page {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-rows: 24% 20% 1fr;
+    place-items: center;
+    place-content: center;
+}
+
+.password-recovery-page__container--text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+
+.password-recovery-page__form {
+    justify-content: start;
+}
+
+.password-recovery-page__figure {
+    width: 20rem;
+    height: 20rem;
+}
+
+.password-recovery-page__text--title, .password-recovery-page__text--subtitle {
+    text-align: center;
+}

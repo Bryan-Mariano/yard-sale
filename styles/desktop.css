@@ -12,3 +12,19 @@
     display: none;
 }
 
+
+/* password-recovery-page */
+
+.password-recovery-page {
+    grid-template-rows: 40% 1fr;
+    gap: 2rem;
+}
+
+
+.password-recovery-page__figure {
+    display: none;
+}
+
+.password-recovery-page__container--text {
+    align-self: end;
+}
