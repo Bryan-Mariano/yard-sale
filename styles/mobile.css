@@ -14,7 +14,6 @@
 
 .login-page__figure {
     width: 28rem;
-    height: 28rem;
 }
 
 /* password-recovery */
@@ -41,9 +40,43 @@
 
 .password-recovery-page__figure {
     width: 20rem;
-    height: 20rem;
 }
 
 .password-recovery-page__text--title, .password-recovery-page__text--subtitle {
     text-align: center;
 }
+
+
+
+/* email sent */
+
+.email-sent-page {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-rows: 12rem repeat(4, min-content);
+    place-items: center;
+    place-content: center;
+    gap: 4rem;
+}
+
+.email-sent-page__figure-logo {
+    width: 20rem;
+}
+
+.email-sent-page__container--text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.8rem;
+}
+
+
+.email-sent-page__figure-email {
+    height: 20rem;
+    width: 20rem;
+    padding: 4rem;
+    border-radius: 50%;
+    background-color: var(--text-input-field);
+}
+

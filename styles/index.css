@@ -93,6 +93,10 @@ html {
     font-size: var(--text-lg);
     border: transparent;
     cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .button--secondary {
@@ -105,6 +109,10 @@ html {
     font-size: var(--text-lg);
     border: 0.4rem solid var(--hospital-green);
     cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .button--bottom {
