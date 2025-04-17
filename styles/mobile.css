@@ -80,3 +80,18 @@
     background-color: var(--text-input-field);
 }
 
+/* new password */
+
+.new-password-page {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 28% repeat(3, min-content);
+    row-gap: 4rem;
+    place-items: center;
+}
+
+.new-password-page__figure {
+    height: 4rem;
+    margin-top: 4rem;
+}
+

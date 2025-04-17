@@ -39,3 +39,15 @@
 .email-sent-page__figure-logo {
     display: none;
 }
+
+
+/* new password */
+
+.new-password-page {
+    place-content: center;
+    grid-template-rows: repeat(2, min-content);
+}
+
+.new-password-page__figure {
+    display: none;
+}
