@@ -199,3 +199,39 @@ html {
 .password-recovery__button-submit {
     margin-top: 2rem;
 }
+
+
+/* email sent */
+
+.email-sent {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 28% min-content min-content 24rem min-content min-content;
+    justify-items: center;
+    gap: 0.8rem;
+}
+
+.email-sent__figure-logo {
+    align-self: center;
+    width: 20rem;
+}
+
+.email-sent__text-subtitle {
+    text-align: center;
+}
+
+.email-sent__figure-email {
+    border-radius: 50%;
+    background-color: var(--text-input-field);
+    height: 20rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    align-self: center;
+}
+
+.email-sent__text-receive {
+    margin-top: 2rem;
+}

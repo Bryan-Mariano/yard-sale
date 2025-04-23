@@ -24,3 +24,15 @@
 .password-recovery__figure-logo {
     display: none;
 }
+
+
+/* email sent */
+
+.email-sent {
+    grid-template-rows: min-content min-content 24rem min-content min-content;
+    place-content: center;
+}
+
+.email-sent__figure-logo {
+    display: none;
+}
