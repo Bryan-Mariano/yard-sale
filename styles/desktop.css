@@ -10,5 +10,17 @@
 
 .login__form-log {
     height:  48rem;
+    
 }
 
+
+/* password recovery */
+
+.password-recovery {
+    grid-template-rows: repeat(3, min-content);
+    place-content: center;
+}
+
+.password-recovery__figure-logo {
+    display: none;
+}

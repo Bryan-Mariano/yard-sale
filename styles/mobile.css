@@ -168,3 +168,34 @@ html {
 .login__button-submit {
     margin-top: 2rem;
 }
+
+
+
+/* password recovery */
+
+
+.password-recovery {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 28% min-content min-content 1fr;
+    justify-items: center;
+    gap: 0.8rem;
+}
+
+.password-recovery__figure-logo {
+    width: 20rem;
+    align-self: center;
+}
+
+.password-recovery__text-subtitle {
+    text-align: center;
+}
+
+.password-recovery__form-recover {
+    margin-top: 2rem;
+    align-items: center;
+} 
+
+.password-recovery__button-submit {
+    margin-top: 2rem;
+}
