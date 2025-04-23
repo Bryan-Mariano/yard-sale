@@ -1,1 +1,14 @@
 @import "mobile.css";
+
+.login {
+    grid-template-rows: 1fr;
+}
+
+.login__figure-logo {
+    display: none;
+}
+
+.login__form-log {
+    height:  48rem;
+}
+

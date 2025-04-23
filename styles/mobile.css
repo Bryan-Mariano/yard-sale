@@ -19,28 +19,28 @@ html {
 }
 
 .text--bold-sm {
-    font-size: 0.8rem;
-    font-weight: 800;
+    font-size: 1.2rem;
+    font-weight: 600;
     color: var(--black);
 }
 
 
 .text--light-sm {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     font-weight: 200;
     color: var(--black);
 }
 
 
 .text--bold-md {
-    font-size: 1.2rem;
-    font-weight: 800;
+    font-size: 1.4rem;
+    font-weight: 600;
     color: var(--black);
 }
 
 
 .text--light-md {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 200;
     color: var(--black);
 }
@@ -48,7 +48,7 @@ html {
 
 .text--bold-lg {
     font-size: 1.6rem;
-    font-weight: 800;
+    font-weight: 600;
     color: var(--black);
 }
 
@@ -80,19 +80,31 @@ html {
     font-size: 1.6rem;
     border-radius: 0.8rem;
     cursor: pointer;
+    width: 40rem;
+    height: 8rem;
 }
 
 .button--secondary {
     background-color: var(--white);
     color: var(--hospital-green);
-    border: 0.2 solid var(--hospital-green);
+    border: 0.2rem solid var(--hospital-green);
     font-size: 1.6rem;
     border-radius: 0.8rem;
     cursor: pointer;
+    width: 40rem;
+    height: 8rem;
+}
+
+.button--link {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .button--bottom {
     margin-top: auto;
+    margin-bottom: 2rem;
 }
 
 .button--middle {
@@ -104,4 +116,55 @@ html {
     flex-direction: column;
     justify-content: start;
     row-gap: 1.2rem;
+}
+
+.input--text {
+    width: 40rem;
+    height: 4rem;
+    border-radius: 0.8rem;
+    background-color: var(--text-input-field);
+    border: 0 solid transparent;
+    padding: 0.8rem;
+}
+
+.input--text:focus {
+    outline: 0.2rem solid var(--hospital-green);
+}
+
+
+.label--col {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.2rem;
+}
+
+
+
+
+/* login */
+
+.login {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 32% 1fr;
+    place-items: center;
+}
+
+.login__figure-logo {
+    width: 24rem;
+}
+
+.login__form-log {
+    height: 100%;
+    width: 40rem;
+}
+
+
+.login__link-forgot {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.login__button-submit {
+    margin-top: 2rem;
 }
