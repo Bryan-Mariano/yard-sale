@@ -44,3 +44,23 @@
     grid-template-rows: repeat(3, min-content);
     place-content: center;
 }
+
+.new-password__figure-logo {
+    display: none;
+}
+
+
+/* create account */
+
+.create-account {
+    grid-template-rows: 20% min-content;
+    place-content: center;
+}
+
+.create-account__form-create {
+    height: max-content;
+}
+
+.create-account__button-submit {
+    margin-top: 2rem;
+}
