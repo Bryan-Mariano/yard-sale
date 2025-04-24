@@ -36,3 +36,11 @@
 .email-sent__figure-logo {
     display: none;
 }
+
+
+/* new password */
+
+.new-password {
+    grid-template-rows: repeat(3, min-content);
+    place-content: center;
+}
